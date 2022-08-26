@@ -7,7 +7,7 @@ app.use(express.json())
 
 
 app.get('/', (req, res) => {
-    res.send('Billy')
+    res.send('Alexes')
     
 })
 
