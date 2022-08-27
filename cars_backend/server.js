@@ -19,7 +19,7 @@ app.get('/car', (req, res) => {
     Car.find({}, (err, foundCar) => {
         res.json(foundCar)
 
-    })
+    }).sort({year:-1})
 })
 
 app.delete('/car/:id', (req, res) => {
